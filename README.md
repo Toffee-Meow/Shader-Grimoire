@@ -55,7 +55,7 @@
 
 &emsp;&emsp;个人🍭云端Shader代码仓库，用来存储在各个游戏引擎中玩过的Shader，同时也作为自己渲染向TA学习过程的记录。
 
-&emsp;&emsp;渲染风格一般为 **三渲二/卡通渲染** 的风格，嘿嘿，主要因为个人非常喜欢二次元风格😽，特别对角色人物卡渲尤为钟爱。😻
+&emsp;&emsp;渲染风格一般为 **三渲二/卡通渲染** 的风格，嘿嘿，主要因为个人非常喜欢二次元风格😽，特别对角色人物卡渲尤为钟爱😻。
 
 &emsp;&emsp;仓库上传的Shader计划会按照 **制作内容**（即Shader实现的具体视觉效果或功能目标）分类，Shader的类型会更贴近实际开发中的需求场景，主要围绕 **“​渲染什么​​”** 或 **“​​解决什么视觉问题​​”** 展开，涵盖：
 - 材质表现类Shader​
@@ -105,7 +105,7 @@
   咒语原理
 </blockquote>
 
-- Shader涉及的着色语言/脚本语言：HLSL、GLSL、ShaderLab。
+- Shader涉及的着色语言/脚本语言：HLSL、GLSL、ShaderLab。<img align="right" src="image/看书icon_白阴影.png" width="25%" alt="看书icon" title="看书icon" />
 - 本仓库所用创作平台：
   - Unreal Engine 5.x
   - Unity 2022.3.62
