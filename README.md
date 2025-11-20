@@ -42,7 +42,7 @@
 </p>
 
 <p>
-  <img src="image/Shader魔法书_白长.png"  alt="Shader魔法书_白" title="Shader魔法书字设" />
+  <img src="image/Shader魔法书长_阴影.png"  alt="Shader魔法书_白" title="Shader魔法书字设" />
 </p>
 </div>
 
@@ -150,7 +150,7 @@
 
 - 另一版仓库标题字体设计😎
 <div align="center">
-  <img src="image/Shader魔法书字设.png" height="220" alt="Shader魔法书字体设计" title="Shader魔法书字体设计" />
+  <img src="image/Shader字设_阴影.png" height="220" alt="Shader魔法书字体设计" title="Shader魔法书字体设计" />
 </div>
 
 <div align="center">
