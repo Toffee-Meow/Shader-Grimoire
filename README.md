@@ -42,7 +42,11 @@
 </p>
 
 <p>
-  <img src="image/Shader魔法书长_阴影.png"  alt="Shader魔法书_白" title="Shader魔法书字设" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader魔法书长_阴影.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader魔法书长_黑.png">
+  <img src="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader魔法书长_阴影.png" alt="Shader魔法书标题设计" title="Shader魔法书标题设计" />
+</picture>
 </p>
 </div>
 
@@ -113,7 +117,13 @@
   咒语原理
 </blockquote>
 
-- Shader涉及的着色语言/脚本语言：HLSL、GLSL、ShaderLab。<img align="right" src="image/看书icon_白阴影.png" width="25%" alt="看书icon" title="看书icon" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/看书icon_白阴影.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/看书icon_黑.png">
+  <img align="right" src="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/看书icon_白阴影.png" width="25%" alt="看书icon" title="看书icon" />
+</picture>
+
+- Shader涉及的着色语言/脚本语言：HLSL、GLSL、ShaderLab<picture>
 - 本仓库所用创作平台：
   - Unreal Engine 5.x
   - Unity 2022.3.62
@@ -157,11 +167,15 @@
 </blockquote>
 
 - 另一版仓库标题字体设计😎
-<div align="center">
-  <img src="image/Shader字设_阴影.png" height="220" alt="Shader魔法书字体设计" title="Shader魔法书字体设计" />
-</div>
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader字设_阴影.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader字设_黑.png">
+  <img src="https://raw.githubusercontent.com/Toffee-Meow/Shader-Grimoire/main/image/Shader字设_阴影.png" height="220" alt="Shader字体设计" title="Shader字体设计" />
+</picture>
+
 <p>
 <i>
   ……
