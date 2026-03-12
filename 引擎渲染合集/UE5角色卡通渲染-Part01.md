@@ -5,6 +5,15 @@
 [**返回按钮🍭**](/引擎渲染合集)
 </div>
 
+- **仿鸣潮 角色卡通渲染研究_测试_Zhezhi**
+> 2026.1.14
+
+<div align="center">
+<p>
+<img src="Render Preview/Toon Render/仿鸣潮角色卡通渲染研究_测试_Zhezhi.png" alt="仿鸣潮角色卡通渲染研究_测试_Zhezhi" title="仿鸣潮角色卡通渲染研究_测试_Zhezhi" />
+</p>
+</div>
+
 - **仿少女前线2 角色卡通渲染研究_测试_Vepley**
 > 2025.12.16
 
