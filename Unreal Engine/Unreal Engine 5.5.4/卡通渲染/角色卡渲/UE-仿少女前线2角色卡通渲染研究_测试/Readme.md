@@ -2,15 +2,15 @@
 
 引擎版本：UE 5.5.4
 
-UE5.5.1_ToonRender_GF2Render_NPR+PBR_Blueprint+HLSL
+UE5.5.4_ToonRender_GF2Render_NPR+PBR_Blueprint+HLSL
 
 ### 内容
 
 &emsp;&emsp;仿 **少女前线2** 角色卡通渲染Shader效果测试
 
-&emsp;&emsp;不魔改引擎，用蓝图和HLSL着色代码，测试NPR+PBR框架，实现NPR光照模型添加PBR风格化着色
+&emsp;&emsp;不魔改引擎，基于 **材质蓝图** 与 **HLSL** 着色代码，实现 **NPR** 卡通光照 + **PBR** 物理材质融合渲染，复刻少女前线2角色卡通渲染效果
 
-&emsp;&emsp;最终渲染画面：卡通材质+灯光+后期处理调色
+&emsp;&emsp;最终渲染画面：卡通Shader + 灯光 + 后期处理调色
 
 ### 资产
 
@@ -32,16 +32,16 @@ UE5.5.1_ToonRender_GF2Render_NPR+PBR_Blueprint+HLSL
 - Actor蓝图：光照方向控制SDF、添加描边
   - BP_Render_55GF2R.uasset：角色蓝图
 
-- HLSL：去除引擎添加的色调映射、SDF抗锯齿
+- HLSL：去除引擎添加的色调映射、SDF阴影抗锯齿
   - Dummy.hlsl：规避色调映射模块
   - Tonemap.hlsl：规避色调映射模块
   - SDF Blur.hlsl：SDF抗锯齿
 
 > PS：UE资产文件，导入对应UE版本的项目Content文件夹内使用
 > 
-> 文件名最后的后缀表示 **渲染内容** 和 **编写此内容所使用的引擎版本**
+> 文件名最后的后缀表示 **编写此内容所使用的引擎版本** 和 **渲染风格**
 > 
-> 后缀：_55GF2R =  “55” 为 “资产为虚幻引擎5.5版本创建” + “GF2R” 为 “少女前线2渲染”
+> 后缀：_55GF2R =  “55” 为 “资产为虚幻引擎5.5版本创建” + “GF2R” 为 “少女前线2风格渲染”
 
 ### 内容预览
 
