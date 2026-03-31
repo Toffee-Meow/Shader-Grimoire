@@ -5,6 +5,15 @@
 [**返回按钮🍭**](/引擎渲染合集)
 </div>
 
+- **风格化 卡通渲染尝试_亮晶晶Jufufu**
+> 2026.3.29
+
+<div align="center">
+<p>
+<img src="Render Preview/Toon Render/风格化卡渲亮晶晶Jufufu.png" alt="风格化卡渲亮晶晶Jufufu" title="风格化卡渲亮晶晶Jufufu" />
+</p>
+</div>
+
 - **仿鸣潮 角色卡通渲染研究_测试_Zhezhi**
 > 2026.1.14
 
