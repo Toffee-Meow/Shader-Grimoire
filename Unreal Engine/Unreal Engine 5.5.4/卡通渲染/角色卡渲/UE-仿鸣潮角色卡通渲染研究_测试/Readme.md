@@ -7,11 +7,11 @@
 
 引擎版本：UE 5.5.4
 
-UE5.5.4_ToonRender_WWRender_NPR+PBR_Blueprint+HLSL
+> UE5.5.4_ToonRender_WWRender_NPR+PBR_Blueprint+HLSL
 
 ### 内容
 
-&emsp;&emsp;仿 **鸣潮** 角色卡通渲染Shader效果测试
+&emsp;&emsp;仿 **鸣潮** 角色卡通渲染Shader/材质 效果测试
 
 &emsp;&emsp;在不魔改引擎的前提下，通过 **材质蓝图** 搭配 **HLSL** 着色代码还原鸣潮角色 **NPR** 渲染风格，同时融入 **PBR** 渲染的艺术表现手法，复刻鸣潮角色卡通渲染效果
 
@@ -22,30 +22,33 @@ UE5.5.4_ToonRender_WWRender_NPR+PBR_Blueprint+HLSL
 &emsp;&emsp;资产内容为材质蓝图、Ramp曲线、HLSL着色代码
 
 - 材质蓝图：
-- 颜色：基础色、半Lambert、Ramp采样、基础调色、局部调色、阴影交界线颜色、阴影过渡颜色、太阳光颜色、灯光颜色（原管线）、天空光照颜色、环境光颜色
-- 阴影：AO阴影、屏幕空间阴影、SDF阴影
-- 高光：MatCap、遮罩高光、模型边关、屏幕空间边缘光、Specular、菲尼尔
-- 细节：Normal、PBR属性
-- 描边：法线外扩描边、摄像机距离调整
-  - M_MasterMaterial_55WWR.uasset：卡渲主材质
-  - M_MasterMask_55WWR.uasset：遮罩蒙版材质
-  - M_TranslucentMask_55WWR.uasset：透明材质
-  - M_OutLine_55WWR.uasset：描边材质
+  - 颜色：基础色、色调映射、基础调色、局部调色、阴影交界线颜色、阴影过渡颜色、灯光颜色（原管线）、太阳光颜色、天空光照颜色、环境光颜色
+  - 光照模型：半Lambert、Ramp采样（卡通二分）
+  - 阴影：AO阴影、屏幕空间阴影、SDF阴影
+  - 高光：MatCap、遮罩高光、模型边光、屏幕空间边缘光、Specular、菲涅尔边缘光
+  - 细节：Normal、PBR属性
+  - 描边：法线外扩描边、摄像机距离限制
+    - M_MasterMaterial_55WWR.uasset：卡渲主材质
+    - M_MasterMask_55WWR.uasset：遮罩蒙版材质
+    - M_TranslucentMask_55WWR.uasset：透明材质
+    - M_OutLine_55WWR.uasset：描边材质
 
-- Ramp曲线：阴影二值化样式
-  - CB_BinaryRamp_Soft_55.uasset：二分 软阴影
-  - CB_BinaryRamp_SlightSoft_55.uasset：二分 微软阴影
-  - CB_BinaryRamp_VerySoft_55.uasset：二分 很软阴影
-  - CB_BinaryRamp_Haed_55.uasset：二分 硬阴影
-  - CB_TernaryRamp_Soft_55.uasset：三分 软阴影
-  - CB_TernaryRamp_VerySoft_55.uasset：三分 很软阴影
-  - CB_TernaryRamp_Haed_55.uasset：三分 硬阴影
-  - CL_MainRender_55.uasset：曲线图谱
+- Ramp曲线：
+  - 阴影二值化样式
+    - CB_BinaryRamp_Soft.uasset：二分 软阴影
+    - CB_BinaryRamp_SlightSoft.uasset：二分 微软阴影
+    - CB_BinaryRamp_VerySoft.uasset：二分 很软阴影
+    - CB_BinaryRamp_Haed.uasset：二分 硬阴影
+    - CB_TernaryRamp_Soft.uasset：三分 软阴影
+    - CB_TernaryRamp_VerySoft.uasset：三分 很软阴影
+    - CB_TernaryRamp_Haed.uasset：三分 硬阴影
+    - CL_MainRender.uasset：曲线图谱
 
-- HLSL：去除引擎原本的色调映射、SDF阴影抗锯齿
-  - Dummy.hlsl：规避色调映射模块
-  - SDF Blur.hlsl：规避色调映射模块
-  - Tonemap.hlsl：SDF阴影抗锯齿
+- HLSL：
+  - 去除引擎原本的色调映射、SDF阴影抗锯齿
+    - Dummy.hlsl：规避色调映射模块
+    - Tonemap.hlsl：规避色调映射模块
+    - SDF-Blur.hlsl：SDF阴影抗锯齿
 
 > PS：UE资产文件，导入对应UE版本的项目Content文件夹内使用
 > 
