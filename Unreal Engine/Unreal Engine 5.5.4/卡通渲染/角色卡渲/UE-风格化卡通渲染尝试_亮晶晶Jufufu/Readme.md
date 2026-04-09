@@ -23,17 +23,17 @@
 &emsp;&emsp;资产内容为材质蓝图、材质参数集、Actor蓝图&关卡蓝图、HLSL着色代码
 
 - 材质蓝图：
-  - 颜色：基础色、色调映射、基础调色、全局调色、太阳光颜色
-  - 卡通光照：半Lambert、阈值采样（卡通二分）
-  - 阴影：AO阴影、SDF阴影、刘海阴影（正+侧面）、屏幕空间阴影、SDF阴影抗锯齿
-  - 高光：MatCap、Kajiya-Kay高光、菲涅尔边缘光
-  - PBR属性：Normal贴图
-  - 动漫细节：眼透
-  - 描边：法线外扩描边、摄像机距离限制
+  - 颜色：基础色、色调映射（原色校准）、基础调色、全局色调控制、太阳光颜色
+  - 卡通光照：半Lambert模型、卡通明暗二分（阈值阶跃采样）
+  - 阴影：AO阴影、SDF阴影、SDF阴影抗锯齿、刘海阴影（正 + 侧面）、屏幕空间阴影
+  - 质感：MatCap、Normal贴图
+  - 高光与轮廓光：Kajiya-Kay高光、菲涅尔边缘光
+  - 动漫细节：眼眉半透效果
+  - 描边：法线外扩描边、摄像机距离自适应控制
     - M_ToonMaster_55Styl.uasset：卡渲主材质 + 描边材质
-    - M_Eyebrows_55Styl.uasset：睫毛与眉毛半透过效果材质
+    - M_Eyebrows_55Styl.uasset：眼睛与睫眉半透过效果材质
     - M_Opacity_55Styl.uasset：半透明材质
-    - M_PPHairShadow_55Styl.uasset：刘海阴影 **后期处理材质**
+    - M_PPHairShadow_55Styl.uasset：刘海阴影 **后期处理** 材质
     - M_Vacant_55Styl.uasset：空材质
 
 - 材质参数集：
